@@ -1,3 +1,3 @@
 SELECT * FROM northwind.products
-HAVING
-  id >= 4 AND id <= 13;
+LIMIT 10
+OFFSET 5;
