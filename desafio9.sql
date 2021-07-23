@@ -1,2 +1,2 @@
 SELECT * FROM northwind.purchase_orders
-WHERE notes <> 'NULL';
+WHERE notes IS NOT NULL;
